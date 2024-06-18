@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "59e5654e-ca30-47c3-8f0f-65f8f41a1655",
+		"name": "foch",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11336977",
+		"_collection_link": "https://cloudy-space-522254.postman.co/workspace/My-Workspace~2fbcdfe7-3d65-40dc-8b9e-a3b829b25ac2/collection/11336977-59e5654e-ca30-47c3-8f0f-65f8f41a1655?action=share&source=collection_link&creator=11336977"
+	},
+	"item": [
+		{
+			"name": "uploadFile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/uploadFile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"uploadFile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getSpecialData",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
